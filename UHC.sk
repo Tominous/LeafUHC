@@ -126,7 +126,7 @@ on join:
 			kick player due to "&eNo arenas found."
 
 function uhc_stats_menu(p: player):
-	open chest inventory with 5 rows named "&8&l» &7Your Stats" to {_p}
+	open chest inventory with 5 rows named "&8&l» &7Your Statistics" to {_p}
 	wait a tick																		
 	make a gui slot 12 of {_p} with stone axe named "&8➥ &7Kills" with lore "&a➜ &e%uhc_get_player_stats({_p}, ""kills"")%" to do nothing
 	make a gui slot 13 of {_p} with nether star named "&8➥ &7Wins" with lore "&a➜ &e%uhc_get_player_stats({_p}, ""wins"")%" to do nothing
